@@ -46,7 +46,7 @@ int main(int argc, char ** argv)
   const size_t VALIDATION_DATA_SIZE = validationData.size();
   const size_t TEST_DATA_SIZE = testData.size();
   const double LEARNING_RATE = 0.05;
-  const size_t EPOCHS = 10;
+  const size_t EPOCHS = 8;
   const size_t BATCH_SIZE = 10;
   const size_t NUM_BATCHES = TRAIN_DATA_SIZE / BATCH_SIZE;
 
